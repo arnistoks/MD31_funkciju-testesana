@@ -1,5 +1,9 @@
 import intersection from './intersectionOfTwoArrays';
 
+test('intersection function exists', () => {
+  expect(intersection).toBeDefined();
+});
+
 test('properly intersects two arrays of numbers', () => {
   expect(intersection([1, 2, 3], [2, 3, 4])).toEqual([2, 3]);
 });

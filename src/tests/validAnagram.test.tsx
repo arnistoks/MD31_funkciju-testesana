@@ -1,6 +1,10 @@
 import isAnagram from './validAnagram';
 
 describe('Anagram function', () => {
+  it('isAnagram function exists', () => {
+    expect(isAnagram).toBeDefined();
+  });
+
   it('should return true if strings are an anagrams', () => {
     expect(isAnagram('elbow', 'below')).toBeTruthy();
     expect(isAnagram('cat', 'act')).toBeTruthy();

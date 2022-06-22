@@ -1,5 +1,9 @@
 import getLastWordLength from './getLastWordLength';
 
+test('getLastWordLength function exists', () => {
+  expect(getLastWordLength).toBeDefined();
+});
+
 test('if word length is four', () => {
   const response = getLastWordLength('hello from mars');
 

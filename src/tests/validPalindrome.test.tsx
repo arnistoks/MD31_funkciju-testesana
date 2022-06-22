@@ -1,5 +1,9 @@
 import validPalindrome from './validPalindrome';
 
+test('validPalindrome function exists', () => {
+  expect(validPalindrome).toBeDefined();
+});
+
 test('if word is palindrome', () => {
   const response = validPalindrome('racecar');
 
